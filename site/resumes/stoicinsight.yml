@@ -1,0 +1,119 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pierre
+    last_name: Gettant
+    
+    # Define yourself in 4-5 words
+    motto: Success doesn't exist without failure.
+    
+    # Focus
+    focus: Mastering the art of programming.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Hi, my name is Pierre. I'm a very curious person, I love to learn about new things especially if they're challenging. 
+      I believe that growth only comes from stepping out of your comfort zone and tackling new obstacles. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4E03AQHPXiRpOpDU_g/profile-displayphoto-shrink_400_400/0/1660373610467?e=1700697600&v=beta&t=K3imjuNousIM3xNgOpLUNtUKpH2PCevM0kpdfKoJ_I0
+
+    # Contact Information
+    email: gettantolcen@gmail.com #optional
+    phone: 954 300 8509 #optional
+    website: https://www.pragmaticpierre.com/ #optional
+    linkedin: https://www.linkedin.com/in/pierre-gettant/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: stoicinsight
+    
+    twitter: stoicpierre #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Creole
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+      - item: Reading
+
+      - item: Movies
+
+# Your previous education
+education:
+    - degree: Full-Stack Web development
+      university: 4Geeks Academy
+      # optional
+      school_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2024
+      details: |
+        Learning about fullstack web development from the wonderful people at 4Geeks!
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Web developer
+      time: 2022-2023
+      company: Aone Global Tech
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Had consultations with clients to figure out business goals, built their websites using wordpress and shopify. 
+        Also helped them with marketing
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Welcome to my projects
+
+    assignments:
+      - title: JediBand
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/StoicInsight/handtrack
+        tagline: Play music with the force! Allows the user to play an instrument by using the camera and waving their hands
+
+      - title: 3D Avatar
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/StoicInsight/3d-avatar
+        tagline: 3D avatar created using ThreeJS
+
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 85%
+
+      - name: JavaScript
+        level: 70%
+
+      - name: React & Node
+        level: 60%
+
+      - name: ThreeJS
+        level: 50%
+
